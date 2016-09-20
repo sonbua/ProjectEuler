@@ -34,8 +34,8 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EvenFibonacciNumbers.cs" />
-    <Compile Include="MultiplesOf3And5.cs" />
+    <Compile Include="Problem0002_EvenFibonacciNumbers.cs" />
+    <Compile Include="Problem0001_MultiplesOf3And5.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

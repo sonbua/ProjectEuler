@@ -4,7 +4,6 @@ namespace ProjectEuler.Tests
 {
     public class EvenFibonacciNumbers_SumOfEvenNumbers_Test
     {
-        // 1, 2, 3, 5, 8, 13, 21, 34, 55, 89,...
         [Theory]
         [InlineData(1, 0)]
         [InlineData(2, 2)]
