@@ -10,7 +10,7 @@ namespace ProjectEuler.Tests
         [InlineData(6, 8)]
         [InlineData(10, 23)]
         [InlineData(20, 78)]
-        public void Scenario_Result(int upper, int expected)
+        public void GivenAUpperNumber_ReturnsCorrectSum(int upper, int expectedSum)
         {
             // arrange
             var sut = new MultiplesOf3And5();
@@ -19,7 +19,7 @@ namespace ProjectEuler.Tests
             var sum = sut.Sum(upper);
 
             // assert
-            Assert.Equal(expected, sum);
+            Assert.Equal(expectedSum, sum);
         }
     }
 }
