@@ -50,6 +50,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EvenFibonacciNumbers_FindFibonacciSequence_Test.cs" />
+    <Compile Include="EvenFibonacciNumbers_SumEvens_Test.cs" />
     <Compile Include="MultiplesOf3And5_Sum_Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
