@@ -10,13 +10,13 @@ namespace ProjectEuler.Tests
         [InlineData(6, 8)]
         [InlineData(10, 23)]
         [InlineData(20, 78)]
-        public void GivenAUpperNumber_ReturnsCorrectSum(int upper, int expectedSum)
+        public void GivenAnExclusiveUpperNumber_ReturnsCorrectSum(int exclusiveUpper, int expectedSum)
         {
             // arrange
             var sut = new MultiplesOf3And5();
 
             // act
-            var sum = sut.Sum(upper);
+            var sum = sut.Sum(exclusiveUpper);
 
             // assert
             Assert.Equal(expectedSum, sum);
