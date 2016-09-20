@@ -53,6 +53,7 @@
     <Compile Include="Problem0002_EvenFibonacciNumbers_FindFibonacciSequence_Test.cs" />
     <Compile Include="Problem0002_EvenFibonacciNumbers_SumOfEvenNumbers_Test.cs" />
     <Compile Include="Problem0001_MultiplesOf3And5_Sum_Test.cs" />
+    <Compile Include="Problem0003_LargestPrimeFactor_Find_Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
