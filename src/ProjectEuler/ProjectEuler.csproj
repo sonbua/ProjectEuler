@@ -34,6 +34,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Problem0004_LargestPalindromeProduct.cs" />
     <Compile Include="Problem0003_LargestPrimeFactor.cs" />
     <Compile Include="Problem0002_EvenFibonacciNumbers.cs" />
     <Compile Include="Problem0001_MultiplesOf3And5.cs" />
