@@ -16,17 +16,9 @@ namespace ProjectEuler
         {
             return Enumerable.Range(2, inclusiveUpper - 1)
                              .AsParallel()
-                             .Where(IsPrime)
+                             .Where(number => Prime.IsPrime(number))
                              .Select(x => (long) x)
                              .Sum();
-        }
-
-        private static bool IsPrime(int number)
-        {
-            for (var i = 2; i <= Math.Sqrt(number); i++)
-                if (number%i == 0)
-                    return false;
-            return true;
         }
     }
 }

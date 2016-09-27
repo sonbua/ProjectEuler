@@ -39,9 +39,13 @@ namespace ProjectEuler
             return _primes.Last();
         }
 
-        private static bool IsPrime(long number)
+        internal static bool IsPrime(long number)
         {
-            for (var i = 2L; i <= Math.Sqrt(number); i++)
+            if (number == 2)
+                return true;
+            if (number%2 == 0)
+                return false;
+            for (var i = 3; i <= Math.Sqrt(number); i += 2)
                 if (number%i == 0)
                     return false;
             return true;
