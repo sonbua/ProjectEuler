@@ -60,6 +60,7 @@
     <Compile Include="Problem0006_SumSquareDifference_Find_Test.cs" />
     <Compile Include="Problem0007_Prime_Find_Test.cs" />
     <Compile Include="Problem0008_LargestProductInASeries_Find_Test.cs" />
+    <Compile Include="Problem0009_SpecialPythagoreanTriplet_FindProduct_Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Problem0005_SmallestMultiple_FindPrimeFactors_Test.cs" />
   </ItemGroup>
