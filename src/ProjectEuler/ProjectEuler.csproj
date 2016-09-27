@@ -39,6 +39,7 @@
     <Compile Include="Problem0002_EvenFibonacciNumbers.cs" />
     <Compile Include="Problem0001_MultiplesOf3And5.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Problem0005_SmallestMultiple.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
