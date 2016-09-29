@@ -34,6 +34,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Problem0012_HighlyDivisibleTriangularNumber.cs" />
     <Compile Include="Problem0008_LargestProductInASeries.cs" />
     <Compile Include="Problem0007_Prime.cs" />
     <Compile Include="Problem0004_LargestPalindromeProduct.cs" />
