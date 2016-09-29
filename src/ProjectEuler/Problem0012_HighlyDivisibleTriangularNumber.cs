@@ -23,20 +23,10 @@ namespace ProjectEuler
     /// </summary>
     public class HighlyDivisibleTriangularNumber
     {
-        private readonly IList<TriangleNumber> _triangleNumbers = new List<TriangleNumber>
-                                                                  {
-                                                                      new TriangleNumber(0, 0),
-                                                                      new TriangleNumber(1, 1),
-                                                                      new TriangleNumber(2, 2)
-                                                                  };
+        private readonly IList<TriangleNumber> _triangleNumbers = new List<TriangleNumber> {new TriangleNumber(0, 0)};
 
         public long Find(int numberOfDivisors)
         {
-            if (_triangleNumbers.Any(x => x.NumberOfDivisors > numberOfDivisors))
-                return _triangleNumbers.First(x => x.NumberOfDivisors > numberOfDivisors)
-                                       .Order
-                                       .CalculateTriangleNumber();
-
             while (_triangleNumbers.Last().NumberOfDivisors <= numberOfDivisors)
             {
                 var nextTriangleOrder = _triangleNumbers.Last().Order + 1;
