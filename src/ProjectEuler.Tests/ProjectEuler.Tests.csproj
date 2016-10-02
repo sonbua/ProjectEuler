@@ -65,6 +65,8 @@
     <Compile Include="Problem0012_HighlyDivisibleTriangularNumber_FindDivisors_Test.cs" />
     <Compile Include="Problem0012_HighlyDivisibleTriangularNumber_Find_Test.cs" />
     <Compile Include="Problem0013_LargeSum_FindFirstTenDigitsOfSum_Test.cs" />
+    <Compile Include="Problem0014_LongestCollatzSequence_FindNumberWithLongestCollatzSequence_Test.cs" />
+    <Compile Include="Problem0014_LongestCollatzSequence_FindCollatzSequence_Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Problem0005_SmallestMultiple_FindPrimeFactors_Test.cs" />
   </ItemGroup>
