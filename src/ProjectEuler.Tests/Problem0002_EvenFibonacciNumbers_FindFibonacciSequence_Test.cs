@@ -22,7 +22,7 @@ namespace ProjectEuler.Tests
             var sequence = sut.FindFibonacciSequence(inclusiveUpper);
 
             // assert
-            Assert.True(expectedSequence.SequenceEqual(sequence));
+            Assert.Equal(expectedSequence, sequence);
         }
     }
 }
