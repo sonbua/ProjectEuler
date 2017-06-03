@@ -212,3 +212,6 @@ _Pvt_Extensions/
 ModelManifest.xml
 *.ncrunchsolution
 *.ncrunchproject
+
+# JetBrains Rider
+.idea/
