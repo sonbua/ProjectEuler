@@ -45,6 +45,7 @@
     <Compile Include="Problem0001_MultiplesOf3And5.cs" />
     <Compile Include="Problem0015_LatticePath.cs" />
     <Compile Include="Problem0016_PowerDigitSum.cs" />
+    <Compile Include="Problem0017_NumberLetterCounts.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Problem0005_SmallestMultiple.cs" />
     <Compile Include="Problem0006_SumSquareDifference.cs" />
