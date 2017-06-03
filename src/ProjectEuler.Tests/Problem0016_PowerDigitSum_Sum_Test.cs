@@ -14,10 +14,10 @@ namespace ProjectEuler.Tests
         public void Sum_GivenAPower_ThenReturnsCorrectSumOfItsDigits(int power, int expectedSum)
         {
             // arrange
-            var powerDigitSum = new PowerDigitSum();
+            var sut = new PowerDigitSum();
 
             // act
-            var sum = powerDigitSum.Sum(power);
+            var sum = sut.Sum(power);
 
             // assert
             Assert.Equal(expectedSum, sum);
